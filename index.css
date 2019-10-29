@@ -1,0 +1,18 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(65,auto)
+}
+#container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-left: 1px solid rgb(60, 245, 183);
+    border-bottom:1px solid rgb(60, 245, 183);
+    transition: .5s;
+  }
